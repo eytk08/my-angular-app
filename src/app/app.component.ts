@@ -20,6 +20,13 @@ export class AppComponent {
   counter = 0; // Counter variable
 
 
+
+
+
+
+
+
+
   // Increment the counter
   incrementCounter() {
     this.counter++;
@@ -29,6 +36,18 @@ export class AppComponent {
     this.counter--;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
   // Movie list array
   movies = [
     {
@@ -36,8 +55,30 @@ export class AppComponent {
       genre: 'Sci-Fi, Action',
       year: 2010,
       rating: 8.8,
+    },
+    {
+      name: 'Split',
+      genre: 'Horror, Mystery',
+      year: 2016,
+      rating: 10,
+    },
+    {
+      name: 'Get Out',
+      genre: 'Horror',
+      year: 2017,
+      rating: 9,
     }
   ];
+
+
+
+
+
+
+
+
+
+
 
 
 

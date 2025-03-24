@@ -18,9 +18,22 @@
   </nav>
   <div>
     <div class="home-page" id="home-page" style="background: url('https://ionic.io/blog/wp-content/uploads/2024/02/angular-feature-image-1.png') no-repeat center center; background-size: cover; height: 100vh; display: flexbox;  align-items: center; color: white; text-align: center;">
+
+
+
+
+
+
+
       <h1>{{ topic }} Framework </h1>
       <h2> {{ title }}</h2>
       <h2>{{ group }} of {{ block}}</h2>
+
+
+
+
+
+
     </div>
 
   </div>
@@ -34,6 +47,8 @@
         <div class="Counter-section" id="Counter-section">
           <h2 style="text-align: center;">Click Counter</h2>
           <div style="display: flex; justify-content: space-between;">
+
+
             <!-- Display the counter -->
             <div style="flex: 1; text-align: center;">
               <p>{{ counter }}</p>
@@ -44,6 +59,10 @@
               <button (click)="incrementCounter()">++</button>
               <button (click)="decrementCounter()">--</button>
             </div>
+
+
+
+
           </div>
         </div>
       </section>
@@ -65,9 +84,16 @@
             <button (click)="addMovie()">Add Movie</button>
           </div>
 
+
+
+
           <!-- Movie List -->
           <h2 style="text-align: center;">Movie List</h2>
+
+          
           <div *ngFor="let movie of movies" class="movie-card">
+
+
             <div class="movie-details">
               <h2 class="movie-name">{{ movie.name }}</h2>
               <p class="movie-genre"><strong>Genre:</strong> {{ movie.genre }}</p>
@@ -79,6 +105,9 @@
       </section>
     </main>
   </div>
+
+
+
 
   <!-- Footer -->
   <footer>
