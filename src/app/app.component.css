@@ -212,6 +212,11 @@ footer {
   gap: 1rem;
 }
 
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
 .movie-card {
   border: 1px solid #ccc;
