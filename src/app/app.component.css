@@ -1,0 +1,361 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-family: 'roboto', sans-serif;
+  --font-size: 16px;
+  --background-color: #FFF3E7;
+  --text-color: #333;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 10px;
+}
+
+.logo img {
+  height: 40px;
+  margin: 0px 10px 0px 50px;
+  padding: 0px 50px 0px 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 50px 10px 0px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0px 0px 20px 0px;
+}
+
+a {
+  color: #f28774;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 4rem 2rem 2rem 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 0 5rem 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-top: 1rem;
+}
+
+h2 {
+  text-align: center;
+
+}
+button {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #4e1d7c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Counter-section button {
+  margin: 0rem 2rem 1.5rem 2rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #6b22af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 3rem;
+  min-width: 200px;
+}
+
+.Counter-section button:hover {
+  margin: 0rem 2rem 1.5rem 2rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #200d31;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 3rem;
+  min-width: 200px;
+}
+.Counter-section p {
+  font-size: 9.25rem;
+  color: var(--text-color);
+  margin: 1rem 0;
+}
+button:hover {
+  background-color: #302929;
+  color: #ccb3f3;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* To-Do List styles */
+.todo-section {
+  margin-top: 2rem;
+}
+
+.todo-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.todo-section form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-section form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.task-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.task-card button {
+  background-color: #5638a8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.task-card button:hover {
+  background-color: #cc0000;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-details {
+  margin-top: 12px;
+}
+
+.movie-name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.movie-genre, .movie-year, .movie-rating {
+  margin: 4px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.todo-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.movie-image {
+  width: 100px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.movie-details {
+  flex: 1;
+}
+
+.movie-actions button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #744cb4;
+  color: white;
+  cursor: pointer;
+}
+
+.movie-actions button:hover {
+  background-color: #0056b3;
+
+}
+
+
+.Movie-section button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  width: 200px;
+  padding: 1rem;
+}
+.home-page h1{
+  padding: 80px 0px 0px 0px ;
+}
+
+
+.nav-linksf {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.nav-linksf a {
+  color: white;
+  text-decoration: none;
+  margin: 2rem;
+  padding: 2rem;
+}
+.footer-logo  {
+  height: 50px;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 50px 0px 50px;
+}
+
+.footer p {
+  margin: 0;
+}
